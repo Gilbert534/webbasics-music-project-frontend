@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import ReactAudioPlayer from 'react-audio-player';
-const NODE_URL = 'http://127.0.0.1:3001'
+const NODE_URL = 'https://music-webbasics-backend.herokuapp.com'
 let song_Chosen;
 class App extends React.Component {
   constructor(props) {
